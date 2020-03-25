@@ -28,7 +28,7 @@ public class Customer {
     return cash;
   }
 
-  public void addCase(double moreCash) {
+  public void addCash(double moreCash) {
     this.cash += moreCash;
   }
 }
