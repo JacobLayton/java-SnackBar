@@ -2,11 +2,14 @@ package snackbar;
 
 public class VM {
   // fields
+  // private static int maxVmid = 0;
   private int vmid;
   private String name;
 
   // constructor
   public VM(int vmid, String name) {
+    // maxVmid++;
+
     this.vmid = vmid;
     this.name = name;
   }
