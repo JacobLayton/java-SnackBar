@@ -2,14 +2,17 @@ package snackbar;
 
 public class Snack {
   // fields
+  // private static int maxId = 0;
   private int id;
   private String name;
   private int quantity;
   private double cost;
-  private String vmid;
+  private int vmid;
 
   // constructor with intial state
-  public Snack(int id, String name, int quantity, double cost, String vmid) {
+  public Snack(int id, String name, int quantity, double cost, int vmid) {
+    // maxId++;
+
     this.id = id;
     this.name = name;
     this.quantity = quantity;
@@ -42,11 +45,11 @@ public class Snack {
     this.cost = cost;
   }
 
-  public String getVmid() {
+  public int getVmid() {
     return vmid;
   }
 
-  public void setVmid(String vmid) {
+  public void setVmid(int vmid) {
     this.vmid = vmid;
   }
 
